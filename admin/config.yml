@@ -8,8 +8,8 @@ backend:
     deleteMedia: "Panel: foto eliminada {{path}}"
 
 locale: es
-site_url: https://af-servicios-generales.netlify.app
-display_url: https://af-servicios-generales.netlify.app
+site_url: https://afgestiondeproyectosylogistica.com
+display_url: https://afgestiondeproyectosylogistica.com
 logo_url: /logo-emblema.png
 media_folder: img/subidas
 public_folder: /img/subidas
