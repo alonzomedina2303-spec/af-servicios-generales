@@ -1,0 +1,206 @@
+{
+  "categorias": [
+    {
+      "nombre": "Barandas de vidrio",
+      "fotos": [
+        {
+          "imagen": "/img/full/barandas-01.jpg",
+          "descripcion": "Baranda de vidrio templado en escalera"
+        },
+        {
+          "imagen": "/img/full/barandas-02.jpg",
+          "descripcion": "Baranda de vidrio templado con sujetadores de acero"
+        },
+        {
+          "imagen": "/img/full/barandas-03.jpg",
+          "descripcion": "Baranda de vidrio templado en doble altura"
+        },
+        {
+          "imagen": "/img/full/barandas-04.jpg",
+          "descripcion": "Baranda de vidrio templado con pasamano"
+        },
+        {
+          "imagen": "/img/full/barandas-05.jpg",
+          "descripcion": "Baranda de vidrio templado y pasamano de acero"
+        },
+        {
+          "imagen": "/img/full/barandas-06.jpg",
+          "descripcion": "Baranda de vidrio con pasamano de acero inoxidable"
+        },
+        {
+          "imagen": "/img/full/barandas-07.jpg",
+          "descripcion": "Parapeto de vidrio templado en azotea"
+        },
+        {
+          "imagen": "/img/full/barandas-08.jpg",
+          "descripcion": "Baranda de vidrio templado en balcón"
+        },
+        {
+          "imagen": "/img/full/barandas-09.jpg",
+          "descripcion": "Parapeto de vidrio templado en terraza"
+        }
+      ]
+    },
+    {
+      "nombre": "Duchas y espejos",
+      "fotos": [
+        {
+          "imagen": "/img/full/duchas-01.jpg",
+          "descripcion": "Ducha de vidrio templado con perfil negro"
+        },
+        {
+          "imagen": "/img/full/duchas-02.jpg",
+          "descripcion": "Ducha esquinera de vidrio templado"
+        },
+        {
+          "imagen": "/img/full/duchas-03.jpg",
+          "descripcion": "Ducha de vidrio templado con bisagras"
+        },
+        {
+          "imagen": "/img/full/duchas-04.jpg",
+          "descripcion": "Ducha de vidrio templado con puerta batiente"
+        },
+        {
+          "imagen": "/img/full/duchas-05.jpg",
+          "descripcion": "Ducha corrediza de vidrio templado"
+        },
+        {
+          "imagen": "/img/full/duchas-06.jpg",
+          "descripcion": "Ducha corrediza con perfil cromado"
+        },
+        {
+          "imagen": "/img/full/duchas-07.jpg",
+          "descripcion": "Ducha de vidrio templado a medida"
+        },
+        {
+          "imagen": "/img/full/duchas-08.jpg",
+          "descripcion": "Ducha corrediza de vidrio templado"
+        },
+        {
+          "imagen": "/img/full/duchas-09.jpg",
+          "descripcion": "Pared de espejos"
+        },
+        {
+          "imagen": "/img/full/duchas-10.jpg",
+          "descripcion": "Cerramiento de vidrio templado"
+        }
+      ]
+    },
+    {
+      "nombre": "Aluminio y PVC",
+      "fotos": [
+        {
+          "imagen": "/img/full/aluminio-01.jpg",
+          "descripcion": "Mampara corrediza de aluminio negro"
+        },
+        {
+          "imagen": "/img/full/pvc-01.jpg",
+          "descripcion": "Ventana corrediza de PVC acústica"
+        },
+        {
+          "imagen": "/img/full/aluminio-02.jpg",
+          "descripcion": "Mamparas de aluminio frente a piscina"
+        },
+        {
+          "imagen": "/img/full/aluminio-03.jpg",
+          "descripcion": "Mampara corrediza de aluminio"
+        },
+        {
+          "imagen": "/img/full/aluminio-04.jpg",
+          "descripcion": "Mampara corrediza de aluminio negro"
+        },
+        {
+          "imagen": "/img/full/aluminio-05.jpg",
+          "descripcion": "Ventanas de aluminio negro"
+        },
+        {
+          "imagen": "/img/full/aluminio-06.jpg",
+          "descripcion": "Puerta de aluminio y vidrio"
+        },
+        {
+          "imagen": "/img/full/aluminio-07.jpg",
+          "descripcion": "Mampara corrediza con vidrio acanalado"
+        },
+        {
+          "imagen": "/img/full/aluminio-08.jpg",
+          "descripcion": "Ventana corrediza de aluminio"
+        },
+        {
+          "imagen": "/img/full/aluminio-09.jpg",
+          "descripcion": "Puerta corrediza con vidrio esmerilado"
+        },
+        {
+          "imagen": "/img/full/aluminio-10.jpg",
+          "descripcion": "Techo de policarbonato con estructura de aluminio"
+        }
+      ]
+    },
+    {
+      "nombre": "Acero inoxidable",
+      "fotos": [
+        {
+          "imagen": "/img/full/acero-01.jpg",
+          "descripcion": "Baranda de acero inoxidable en escalera"
+        },
+        {
+          "imagen": "/img/full/acero-02.jpg",
+          "descripcion": "Pasamano y baranda de acero inoxidable"
+        },
+        {
+          "imagen": "/img/full/acero-03.jpg",
+          "descripcion": "Baranda de acero inoxidable"
+        },
+        {
+          "imagen": "/img/full/acero-04.jpg",
+          "descripcion": "Escalera con baranda de acero inoxidable"
+        },
+        {
+          "imagen": "/img/full/acero-05.jpg",
+          "descripcion": "Puerta de acero inoxidable y vidrio"
+        },
+        {
+          "imagen": "/img/full/acero-06.jpg",
+          "descripcion": "Pasamano metálico en escalera"
+        }
+      ]
+    },
+    {
+      "nombre": "Melamina",
+      "fotos": [
+        {
+          "imagen": "/img/full/melamina-01.jpg",
+          "descripcion": "Mueble en melamina con vitrinas"
+        },
+        {
+          "imagen": "/img/full/melamina-02.jpg",
+          "descripcion": "Closet en melamina"
+        },
+        {
+          "imagen": "/img/full/melamina-03.jpg",
+          "descripcion": "Mobiliario en melamina para tienda"
+        },
+        {
+          "imagen": "/img/full/melamina-04.jpg",
+          "descripcion": "Instalación de closet en melamina"
+        },
+        {
+          "imagen": "/img/full/melamina-05.jpg",
+          "descripcion": "Instalación de mueble en melamina"
+        }
+      ]
+    },
+    {
+      "nombre": "Servicios generales",
+      "fotos": [
+        {
+          "imagen": "/img/full/servicios-01.jpg",
+          "descripcion": "Pérgola en azotea"
+        },
+        {
+          "imagen": "/img/full/servicios-02.jpg",
+          "descripcion": "Trabajos en obra de piscina"
+        }
+      ]
+    }
+  ]
+}

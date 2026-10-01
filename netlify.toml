@@ -1,0 +1,9 @@
+# Sitio estático: no necesita compilación
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "no-cache"

@@ -1,0 +1,74 @@
+{
+  "servicios": [
+    {
+      "titulo": "Vidrio templado",
+      "imagen": "/img/full/barandas-08.jpg",
+      "trabajos": [
+        "Barandas de vidrio templado",
+        "Parapetos de vidrio templado",
+        "Techos y azoteas en vidrio templado",
+        "Pasamanos en vidrio templado y acero inoxidable",
+        "Mamparas, divisiones, ventanas y espejos"
+      ],
+      "icono": "fa-solid fa-border-all"
+    },
+    {
+      "titulo": "Carpintería de aluminio",
+      "imagen": "/img/full/aluminio-03.jpg",
+      "trabajos": [
+        "Sistemas serie 25, 42 y 80 para ventanas y mamparas",
+        "Puertas y mamparas de aluminio",
+        "Estructuras en aluminio",
+        "Techos con policarbonato",
+        "Estructuras combinadas con acero inoxidable"
+      ],
+      "icono": "fa-solid fa-door-open"
+    },
+    {
+      "titulo": "Ventanas de PVC acústicas",
+      "imagen": "/img/full/pvc-01.jpg",
+      "trabajos": [
+        "Ventanas de PVC que reducen el ruido exterior",
+        "Ideales para dormitorios, oficinas y frentes a avenidas",
+        "Mayor hermeticidad frente al polvo y el viento",
+        "Fabricación e instalación a medida"
+      ],
+      "icono": "fa-solid fa-volume-xmark"
+    },
+    {
+      "titulo": "Acero inoxidable",
+      "imagen": "/img/full/acero-01.jpg",
+      "trabajos": [
+        "Pasamanos",
+        "Barandas",
+        "Balcones",
+        "Escaleras",
+        "Acabados combinados con vidrio templado"
+      ],
+      "icono": "fa-solid fa-stairs"
+    },
+    {
+      "titulo": "Muebles en melamina",
+      "imagen": "/img/full/melamina-01.jpg",
+      "trabajos": [
+        "Muebles de cocina",
+        "Closets y organizadores",
+        "Muebles a medida para hogar y oficina",
+        "Reparaciones y acabados"
+      ],
+      "icono": "fa-solid fa-couch"
+    },
+    {
+      "titulo": "Servicios generales",
+      "imagen": "/img/full/servicios-01.jpg",
+      "trabajos": [
+        "Mantenimiento",
+        "Instalaciones y reparaciones",
+        "Pintura y acabados",
+        "Remodelaciones",
+        "Trabajos a solicitud"
+      ],
+      "icono": "fa-solid fa-screwdriver-wrench"
+    }
+  ]
+}

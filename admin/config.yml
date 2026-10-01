@@ -1,0 +1,129 @@
+# Panel de administración de AF Servicios Generales (Decap CMS)
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    update: "Panel: actualización de {{slug}}"
+    uploadMedia: "Panel: foto subida {{path}}"
+    deleteMedia: "Panel: foto eliminada {{path}}"
+
+locale: es
+site_url: https://af-servicios-generales.netlify.app
+display_url: https://af-servicios-generales.netlify.app
+logo_url: /logo-emblema.png
+media_folder: img/subidas
+public_folder: /img/subidas
+
+collections:
+  - name: contenido
+    label: Contenido de la web
+    description: >-
+      Cada vez que pulses "Publicar" se actualiza la web en 1 o 2 minutos.
+      Haz todos los cambios que necesites y publica una sola vez.
+    editor:
+      preview: false
+    files:
+      - name: contacto
+        label: "Contacto y redes sociales"
+        file: content/contacto.json
+        fields:
+          - label: "WhatsApp y teléfono"
+            name: whatsapp
+            widget: string
+            hint: "Los 9 dígitos del celular, sin espacios ni +51. Ejemplo: 920246811"
+            pattern: ['^9[0-9]{8}$', 'Escribe los 9 dígitos del celular, empezando con 9, sin espacios ni +51']
+          - label: "Correo electrónico"
+            name: correo
+            widget: string
+            required: false
+            hint: "Si lo dejas vacío, el correo no se muestra en la web"
+            pattern: ['^$|^[^@\s]+@[^@\s]+\.[^@\s]+$', 'Escribe un correo válido, por ejemplo ventas@gmail.com']
+          - label: "Zona de atención"
+            name: zonas
+            widget: string
+            hint: "Ejemplo: Lima e Ica"
+          - label: "Horario de atención"
+            name: horario
+            widget: string
+            hint: "Ejemplo: Lunes a sábado, 8:00 a. m. a 8:00 p. m."
+          - label: "Facebook (enlace)"
+            name: facebook
+            widget: string
+            required: false
+            hint: "Copia el enlace de tu página de Facebook. Si lo dejas vacío, el botón no se muestra"
+          - label: "Instagram (enlace)"
+            name: instagram
+            widget: string
+            required: false
+            hint: "Copia el enlace de tu perfil de Instagram. Si lo dejas vacío, el botón no se muestra"
+          - label: "TikTok (enlace)"
+            name: tiktok
+            widget: string
+            required: false
+            hint: "Copia el enlace de tu perfil de TikTok. Si lo dejas vacío, el botón no se muestra"
+
+      - name: servicios
+        label: "Servicios (tarjetas)"
+        file: content/servicios.json
+        fields:
+          - label: "Servicios"
+            name: servicios
+            label_singular: "servicio"
+            widget: list
+            allow_add: false
+            collapsed: true
+            summary: "{{fields.titulo}}"
+            fields:
+              - label: "Nombre del servicio"
+                name: titulo
+                widget: string
+              - label: "Foto de la tarjeta"
+                name: imagen
+                widget: image
+                choose_url: false
+                hint: "Usa una foto horizontal y bien iluminada"
+              - label: "Trabajos que incluye"
+                name: trabajos
+                label_singular: "trabajo"
+                widget: list
+                hint: "Un trabajo por línea. Puedes agregar, quitar o reordenar"
+                field:
+                  label: "Trabajo"
+                  name: trabajo
+                  widget: string
+              - label: "Ícono"
+                name: icono
+                widget: hidden
+                default: "fa-solid fa-check"
+
+      - name: galeria
+        label: "Galería de fotos"
+        file: content/galeria.json
+        fields:
+          - label: "Categorías (pestañas de la galería)"
+            name: categorias
+            label_singular: "categoría"
+            widget: list
+            collapsed: true
+            summary: "{{fields.nombre}}"
+            hint: "Cada categoría es una pestaña. Puedes crear nuevas, por ejemplo Ventanas de PVC"
+            fields:
+              - label: "Nombre de la pestaña"
+                name: nombre
+                widget: string
+              - label: "Fotos"
+                name: fotos
+                label_singular: "foto"
+                widget: list
+                collapsed: true
+                summary: "{{fields.descripcion}}"
+                hint: "Las fotos aparecen en este orden. Arrástralas para reordenarlas"
+                fields:
+                  - label: "Foto"
+                    name: imagen
+                    widget: image
+                    choose_url: false
+                  - label: "Descripción"
+                    name: descripcion
+                    widget: string
+                    hint: "Ejemplo: Baranda de vidrio templado en escalera"

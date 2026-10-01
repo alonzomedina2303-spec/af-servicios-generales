@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GESTIÓN DE PROYECTOS Y LOGÍSTICA FELIPA SACS: vidrio templado, carpintería de aluminio (series 25, 42 y 80), ventanas de PVC acústicas, acero inoxidable y muebles en melamina. Atendemos Lima e Ica." />
+  <meta name="theme-color" content="#062b5c" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <link rel="canonical" href="https://af-servicios-generales.netlify.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://af-servicios-generales.netlify.app/" />
+  <meta property="og:title" content="AF Servicios Generales – Vidriería, carpintería y servicios generales" />
+  <meta property="og:description" content="Vidrio templado, carpintería de aluminio y PVC, acero inoxidable y muebles en melamina. Atendemos Lima e Ica. Cotiza por WhatsApp." />
+  <meta property="og:image" content="https://af-servicios-generales.netlify.app/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="es_PE" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>GESTIÓN DE PROYECTOS Y LOGÍSTICA FELIPA SACS</title>
+  <style>
+    :root{
+      --navy:#062b5c;
+      --navy-2:#0a3d78;
+      --blue:#087ee8;
+      --cyan:#17c8ff;
+      --green:#13b85b;
+      --orange:#ff8a19;
+      --white:#ffffff;
+      --bg:#f5f8fc;
+      --text:#14263d;
+      --muted:#617188;
+      --line:#dce6f1;
+      --shadow:0 18px 45px rgba(6,43,92,.12);
+      --radius:20px;
+      --max:1180px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:var(--white);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{width:min(var(--max),92%);margin:auto}
+    .topbar{background:var(--navy);color:#fff;font-size:12px}
+    .topbar .container{display:flex;justify-content:flex-end;gap:22px;padding:7px 0}
+    header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid #e8eef5}
+    .nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:13px;min-width:260px}
+    .brand img{height:54px;width:auto;object-fit:contain}
+    .brand-title{font-weight:900;line-height:1.02;color:var(--navy);font-size:17px}
+    .brand-sub{font-size:9px;letter-spacing:1.1px;color:#58708b;font-weight:700;margin-top:5px}
+    nav{display:flex;align-items:center;gap:28px;font-size:14px;font-weight:700;color:#263d58}
+    nav a{position:relative;padding:30px 0}
+    nav a:after{content:"";position:absolute;left:0;bottom:23px;width:0;height:3px;border-radius:3px;background:var(--blue);transition:.25s}
+    nav a:hover:after{width:100%}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 21px;border-radius:999px;font-weight:800;border:0;cursor:pointer;transition:.25s}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(8,126,232,.2)}
+    .btn-primary{background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff}
+    .btn-green{background:var(--green);color:#fff}
+    .menu-btn{display:none;background:none;border:0;font-size:27px;color:var(--navy);cursor:pointer}
+
+    .hero{min-height:620px;position:relative;overflow:hidden;background:
+      linear-gradient(90deg,rgba(2,25,55,.98) 0%,rgba(4,48,93,.92) 39%,rgba(4,48,93,.45) 65%,rgba(4,48,93,.12) 100%),
+      url("img/full/barandas-05.jpg") center/cover}
+    .hero:after{content:"";position:absolute;inset:auto -10% -100px;height:190px;background:linear-gradient(180deg,transparent,#fff);transform:skewY(-3deg)}
+    .hero-content{position:relative;z-index:2;min-height:620px;display:flex;align-items:center}
+    .hero-copy{max-width:650px;color:#fff;padding:75px 0}
+    .eyebrow{display:inline-flex;gap:9px;align-items:center;background:rgba(23,200,255,.13);border:1px solid rgba(23,200,255,.45);color:#bcefff;padding:8px 13px;border-radius:999px;font-size:12px;font-weight:900;letter-spacing:1.3px;text-transform:uppercase}
+    .hero h1{font-size:clamp(38px,5vw,68px);line-height:.99;margin:20px 0;font-weight:950;letter-spacing:-2.3px}
+    .hero h1 span{color:#20c9ff}
+    .hero p{font-size:18px;color:#dbe9f7;max-width:600px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+    .hero-trust{display:flex;gap:30px;flex-wrap:wrap;margin-top:34px}
+    .trust{display:flex;gap:10px;align-items:center;color:#fff;font-size:13px;font-weight:700}
+    .trust i{width:37px;height:37px;border:1px solid rgba(255,255,255,.35);border-radius:12px;display:grid;place-items:center;color:#21c9ff;font-style:normal}
+
+    section{padding:88px 0}
+    .section-head{text-align:center;max-width:760px;margin:0 auto 42px}
+    .section-kicker{text-transform:uppercase;letter-spacing:2px;color:var(--blue);font-size:12px;font-weight:900}
+    .section-head h2{font-size:clamp(30px,4vw,44px);line-height:1.08;color:var(--navy);margin:9px 0 12px;letter-spacing:-1px}
+    .section-head h2 span{color:var(--blue)}
+    .section-head p{color:var(--muted)}
+
+    .services{background:var(--bg)}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:0 8px 28px rgba(6,43,92,.06);transition:.3s}
+    .card:hover{transform:translateY(-8px);box-shadow:var(--shadow)}
+    .service-image{height:220px;position:relative;overflow:hidden}
+    .service-image img{width:100%;height:100%;object-fit:cover;transition:.5s}
+    .card:hover .service-image img{transform:scale(1.06)}
+    .service-icon{position:absolute;left:22px;bottom:-23px;width:58px;height:58px;border-radius:18px;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:25px;border:5px solid #fff;box-shadow:0 7px 20px rgba(0,0,0,.16)}
+    .service-body{padding:38px 25px 26px}
+    .service-body h3{font-size:21px;color:var(--navy);margin-bottom:11px}
+    .service-body ul{list-style:none;color:var(--muted);font-size:14px;display:grid;gap:6px}
+    .service-body li:before{content:"✓";color:var(--blue);font-weight:900;margin-right:8px}
+    .service-body .btn{margin-top:19px;padding:10px 17px;font-size:13px}
+
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+    .about-image{border-radius:28px;overflow:hidden;box-shadow:var(--shadow);min-height:500px}
+    .about-image img{width:100%;height:100%;object-fit:cover}
+    .about-copy h2{font-size:42px;line-height:1.05;color:var(--navy);margin:8px 0 18px}
+    .about-copy p{color:var(--muted);margin-bottom:20px}
+    .checks{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:25px 0}
+    .check{display:flex;gap:10px;align-items:flex-start;font-weight:700;font-size:14px}
+    .check b{width:26px;height:26px;border-radius:50%;background:#e9f7ff;color:var(--blue);display:grid;place-items:center;flex:none}
+
+    .portfolio{background:var(--navy);color:#fff}
+    .portfolio .section-head h2{color:#fff}
+    .portfolio .section-head p{color:#bfd2e6}
+    .portfolio-grid{display:grid;grid-template-columns:1.3fr .85fr .85fr;grid-auto-rows:230px;gap:14px}
+    .gal-tabs{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:-10px 0 28px}
+    .gal-tab{border:1px solid rgba(255,255,255,.28);background:transparent;color:#d8e6f5;padding:10px 18px;border-radius:999px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;transition:.2s}
+    .gal-tab:hover{border-color:#25c8ff;color:#fff}
+    .gal-tab.active{background:#fff;color:var(--navy);border-color:#fff}
+    .gal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .gal-item{margin:0;position:relative;border-radius:16px;overflow:hidden;background:#123;aspect-ratio:4/5}
+    .gal-item[hidden],.socials a[hidden],.contact-line[hidden]{display:none}
+    .gal-item button{all:unset;cursor:zoom-in;display:block;width:100%;height:100%}
+    .gal-item img{width:100%;height:100%;object-fit:cover;transition:.5s;display:block}
+    .gal-item:hover img{transform:scale(1.06)}
+    .gal-item button:focus-visible{outline:3px solid #25c8ff;outline-offset:-3px}
+    .gal-item figcaption{position:absolute;left:0;right:0;bottom:0;padding:40px 14px 13px;font-size:13px;font-weight:700;line-height:1.3;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.8));pointer-events:none}
+    .lightbox{position:fixed;inset:0;z-index:1000;background:rgba(2,14,30,.94);display:flex;align-items:center;justify-content:center;padding:20px}
+    .lightbox[hidden]{display:none}
+    .lightbox figure{margin:0;max-width:min(1100px,100%);text-align:center}
+    .lightbox img{max-width:100%;max-height:80vh;border-radius:12px;display:block;margin:0 auto}
+    .lightbox figcaption{color:#e3edf8;margin-top:12px;font-weight:600}
+    .lb-close,.lb-nav{position:absolute;background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:50%;cursor:pointer;display:grid;place-items:center}
+    .lb-close{top:18px;right:18px;width:44px;height:44px;font-size:20px}
+    .lb-nav{top:50%;transform:translateY(-50%);width:52px;height:52px;font-size:34px;line-height:1}
+    .lb-prev{left:16px}.lb-next{right:16px}
+    .lb-close:hover,.lb-nav:hover{background:rgba(255,255,255,.25)}
+    @media(max-width:980px){.gal-grid{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:760px){.gal-grid{grid-template-columns:repeat(2,1fr);gap:10px}.gal-tab{padding:8px 13px;font-size:13px}.lb-nav{width:42px;height:42px;font-size:28px}.lb-prev{left:6px}.lb-next{right:6px}}
+    .project{border-radius:18px;overflow:hidden;position:relative;background:#123}
+    .project:first-child{grid-row:span 2}
+    .project img{width:100%;height:100%;object-fit:cover;transition:.5s}
+    .project:hover img{transform:scale(1.07)}
+    .project:after{content:"";position:absolute;inset:40% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.78))}
+    .project-label{position:absolute;z-index:2;left:18px;bottom:17px;font-weight:800}
+    .tag{display:inline-block;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.16);font-size:11px;margin-bottom:5px}
+
+    .why{background:#fff}
+    .why-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;border:1px solid var(--line);border-radius:20px;overflow:hidden}
+    .why-item{padding:28px 15px;text-align:center;border-right:1px solid var(--line)}
+    .why-item:last-child{border:0}
+    .why-item .big{font-size:30px;margin-bottom:10px}
+    .why-item h4{font-size:14px;color:var(--navy);margin-bottom:6px}
+    .why-item p{font-size:12px;color:var(--muted)}
+
+    .cta{padding:70px 0;background:linear-gradient(120deg,var(--navy),#075fa8);color:#fff}
+    .cta-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .cta h2{font-size:40px;line-height:1.08;margin:7px 0}
+    .cta p{color:#d7e7f6}
+
+    .contact{background:var(--bg)}
+    .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px}
+    .contact-info,.form-box{background:#fff;border:1px solid var(--line);border-radius:22px;padding:32px;box-shadow:0 8px 30px rgba(6,43,92,.06)}
+    .contact-info h3,.form-box h3{font-size:25px;color:var(--navy);margin-bottom:10px}
+    .contact-info>p{color:var(--muted);margin-bottom:24px}
+    .contact-line{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid #edf1f5}
+    .contact-line:last-child{border:0}
+    .contact-line .ico{width:42px;height:42px;border-radius:13px;background:#eaf6ff;color:var(--blue);display:grid;place-items:center;flex:none}
+    .contact-line strong{display:block;color:var(--navy);font-size:13px}
+    .contact-line span{color:var(--muted);font-size:13px}
+    form{display:grid;gap:14px;margin-top:18px}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    input,textarea,select{width:100%;padding:14px 15px;border:1px solid #d8e2ed;border-radius:12px;outline:none;font:inherit;background:#fbfdff}
+    input:focus,textarea:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 4px rgba(8,126,232,.08)}
+    textarea{min-height:130px;resize:vertical}
+
+    footer{background:#031c3b;color:#c4d4e7;padding:34px 0 20px}
+    .footer-top{display:flex;justify-content:space-between;gap:30px;align-items:center;padding-bottom:25px;border-bottom:1px solid rgba(255,255,255,.12)}
+    .footer-brand{display:flex;align-items:center;gap:12px}
+    .footer-brand img{height:46px;width:auto;object-fit:contain}
+    .footer-brand strong{color:#fff;display:block}
+    .footer-brand small{font-size:11px}
+    .footer-links{display:flex;gap:20px;font-size:13px}
+    .footer-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:18px;font-size:11px}
+    .hero-stamp{position:absolute;right:2%;bottom:110px;z-index:3;color:#fff;font-size:26px;font-weight:800;font-style:italic;line-height:1.05;text-align:center;transform:rotate(-5deg);text-shadow:0 4px 16px rgba(0,0,0,.4);font-family:Georgia,serif}
+    .hero-stamp:after{content:"";display:block;width:190px;height:4px;border-radius:4px;background:var(--cyan);transform:rotate(-2deg);margin:9px auto 0}
+    .value-strip{padding:28px 0;background:linear-gradient(115deg,#031e40,#064a87);color:#fff}
+    .value-inner{display:grid;grid-template-columns:1.4fr repeat(5,1fr);align-items:center}
+    .value-title{padding-right:30px}
+    .value-title small{font-size:10px;letter-spacing:2px;color:#20c9ff;font-weight:900}
+    .value-title h2{font-size:26px;line-height:1.05;margin-top:5px}
+    .value-item{min-height:82px;padding:10px 15px;text-align:center;border-left:1px solid rgba(255,255,255,.23);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px}
+    .value-item b{width:40px;height:40px;border:1px solid #20c9ff;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:18px}
+    .value-item strong{font-size:12px;line-height:1.15}
+    .whatsapp{position:fixed;right:24px;bottom:24px;z-index:99;width:66px;height:66px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;font-size:36px;box-shadow:0 14px 34px rgba(19,184,91,.38);border:4px solid #fff;transition:.25s}
+    .whatsapp:hover{transform:scale(1.08)}
+    .wa-icon{font-size:32px;line-height:1;font-weight:900}
+    .wa-tooltip{position:absolute;right:76px;white-space:nowrap;background:var(--navy);color:#fff;padding:9px 13px;border-radius:10px;font-size:12px;font-weight:800;opacity:0;pointer-events:none;transform:translateX(8px);transition:.2s;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+    .whatsapp:hover .wa-tooltip{opacity:1;transform:translateX(0)}
+    .socials{display:flex;align-items:center;gap:9px}
+    .socials a{width:38px;height:38px;border:1px solid rgba(255,255,255,.22);border-radius:50%;display:grid;place-items:center;color:#fff;font-size:14px;font-weight:900;transition:.2s}
+    .socials a:hover{background:var(--blue);border-color:var(--blue);transform:translateY(-2px)}
+    .socials .pending{position:relative}
+    .socials .pending:after{content:"Próximamente";position:absolute;bottom:45px;left:50%;transform:translateX(-50%);white-space:nowrap;background:#fff;color:var(--navy);padding:5px 8px;border-radius:7px;font-size:9px;opacity:0;pointer-events:none;transition:.2s}
+    .socials .pending:hover:after{opacity:1}
+    .backtop{position:fixed;right:22px;bottom:96px;width:40px;height:40px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;z-index:90}
+
+    @media(max-width:980px){
+      nav{gap:16px}.nav .btn-green{display:none}
+      .service-grid{grid-template-columns:1fr 1fr}
+      .about-grid,.contact-grid{grid-template-columns:1fr}
+      .why-grid{grid-template-columns:repeat(3,1fr)}
+      .why-item:nth-child(3){border-right:0}.why-item:nth-child(-n+3){border-bottom:1px solid var(--line)}
+      .cta-inner{flex-direction:column;align-items:flex-start}
+    }
+    @media(max-width:760px){
+      .topbar{display:none}
+      header{position:sticky}
+      .nav{min-height:70px}.brand img{height:40px;width:auto}.brand-title{font-size:14px}.brand-sub{font-size:7px}
+      .menu-btn{display:block}
+      nav{display:none;position:absolute;top:70px;left:0;right:0;background:#fff;box-shadow:0 18px 25px rgba(0,0,0,.08);padding:14px 5%;flex-direction:column;align-items:flex-start;gap:0}
+      nav.open{display:flex}
+      nav a{width:100%;padding:13px 0}
+      nav a:after{bottom:5px}
+      .hero,.hero-content{min-height:610px}
+      .hero-copy{padding:50px 0}.hero h1{font-size:43px;letter-spacing:-1.5px}
+      .hero p{font-size:16px}.hero-trust{gap:13px}
+      section{padding:65px 0}
+      .checks{grid-template-columns:1fr}
+      .about-image{min-height:350px}
+      .portfolio-grid{grid-template-columns:1fr 1fr;grid-auto-rows:180px}
+      .project:first-child{grid-row:span 1}
+      .project:first-child{grid-column:span 2}
+      .why-grid{grid-template-columns:1fr 1fr}
+      .why-item:nth-child(2n){border-right:0}
+      .why-item:nth-child(-n+4){border-bottom:1px solid var(--line)}
+      .row{grid-template-columns:1fr}
+      .service-grid{grid-template-columns:1fr}
+      .value-inner{grid-template-columns:1fr 1fr}
+      .value-title{grid-column:span 2;text-align:center;padding:0 0 15px}
+      .value-item:nth-child(3){border-right:0}
+      .hero-stamp{display:none}
+      .footer-top,.footer-bottom{flex-direction:column;align-items:flex-start}
+      .footer-links{flex-wrap:wrap}
+      .wa-tooltip{display:none}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>Calidad</span><span>•</span><span>Compromiso</span><span>•</span><span>Tu proyecto, nuestra prioridad</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <img src="logo-emblema.png" alt="AF Servicios Generales" width="137" height="54" />
+        <div>
+          <div class="brand-title">GESTIÓN DE PROYECTOS<br>Y LOGÍSTICA FELIPA SACS</div>
+          <div class="brand-sub">VIDRIERÍA · CARPINTERÍA · SERVICIOS GENERALES</div>
+        </div>
+      </a>
+
+      <button class="menu-btn" aria-label="Abrir menú" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="btn btn-green" href="#contacto"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> &nbsp;Cotizar ahora</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <span class="eyebrow">TU PROYECTO, NUESTRA PRIORIDAD</span>
+          <h1>Soluciones en <span>vidrio, carpintería</span> y servicios generales</h1>
+          <p>En <strong>GESTIÓN DE PROYECTOS Y LOGÍSTICA FELIPA SACS</strong> convertimos tus ideas en realidad, con calidad, experiencia y el mejor servicio.</p>
+          <div class="hero-actions">
+            <a class="btn btn-green" href="https://wa.me/51920246811?text=Hola%20FELIPA%20SACS,%20deseo%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> &nbsp;Solicita tu cotización por WhatsApp →</a>
+            <a class="btn" style="background:rgba(255,255,255,.10);color:#fff;border:1px solid rgba(255,255,255,.30)" href="#servicios">Ver nuestros servicios</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust"><i><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></i><span>Trabajo<br>garantizado</span></div>
+            <div class="trust"><i><i class="fa-solid fa-user-check" aria-hidden="true"></i></i><span>Atención<br>personalizada</span></div>
+            <div class="trust"><i><i class="fa-regular fa-clock" aria-hidden="true"></i></i><span>Puntualidad<br>y compromiso</span></div>
+          </div>
+        </div>
+        <div class="hero-stamp">Calidad y confianza<br><strong>en cada proyecto</strong></div>
+      </div>
+    </section>
+
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">Nuestros servicios</div>
+          <h2>Soluciones integrales para <span>tu hogar o negocio</span></h2>
+          <p>Fabricamos e instalamos en vidrio templado, aluminio, PVC, acero inoxidable y melamina, con soluciones duraderas para cada necesidad.</p>
+        </div>
+
+        <div class="service-grid" id="cms-servicios">
+          <article class="card">
+            <div class="service-image">
+              <img src="img/thumb/barandas-08.jpg" alt="Trabajos en vidrio templado" loading="lazy">
+              <div class="service-icon"><i class="fa-solid fa-border-all" aria-hidden="true"></i></div>
+            </div>
+            <div class="service-body">
+              <h3>Vidrio templado</h3>
+              <ul>
+                <li>Barandas de vidrio templado</li>
+                <li>Parapetos de vidrio templado</li>
+                <li>Techos y azoteas en vidrio templado</li>
+                <li>Pasamanos en vidrio templado y acero inoxidable</li>
+                <li>Mamparas, divisiones, ventanas y espejos</li>
+              </ul>
+              <a class="btn btn-primary" href="#contacto" data-servicio="Vidrio templado">Cotizar servicio →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="service-image">
+              <img src="img/thumb/aluminio-03.jpg" alt="Carpintería de aluminio" loading="lazy">
+              <div class="service-icon"><i class="fa-solid fa-door-open" aria-hidden="true"></i></div>
+            </div>
+            <div class="service-body">
+              <h3>Carpintería de aluminio</h3>
+              <ul>
+                <li>Sistemas serie 25, 42 y 80 para ventanas y mamparas</li>
+                <li>Puertas y mamparas de aluminio</li>
+                <li>Estructuras en aluminio</li>
+                <li>Techos con policarbonato</li>
+                <li>Estructuras combinadas con acero inoxidable</li>
+              </ul>
+              <a class="btn btn-primary" href="#contacto" data-servicio="Carpintería de aluminio">Cotizar servicio →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="service-image">
+              <img src="img/thumb/pvc-01.jpg" alt="Ventanas de PVC acústicas" loading="lazy">
+              <div class="service-icon"><i class="fa-solid fa-volume-xmark" aria-hidden="true"></i></div>
+            </div>
+            <div class="service-body">
+              <h3>Ventanas de PVC acústicas</h3>
+              <ul>
+                <li>Ventanas de PVC que reducen el ruido exterior</li>
+                <li>Ideales para dormitorios, oficinas y frentes a avenidas</li>
+                <li>Mayor hermeticidad frente al polvo y el viento</li>
+                <li>Fabricación e instalación a medida</li>
+              </ul>
+              <a class="btn btn-primary" href="#contacto" data-servicio="Ventanas de PVC acústicas">Cotizar servicio →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="service-image">
+              <img src="img/thumb/acero-01.jpg" alt="Trabajos en acero inoxidable" loading="lazy">
+              <div class="service-icon"><i class="fa-solid fa-stairs" aria-hidden="true"></i></div>
+            </div>
+            <div class="service-body">
+              <h3>Acero inoxidable</h3>
+              <ul>
+                <li>Pasamanos</li>
+                <li>Barandas</li>
+                <li>Balcones</li>
+                <li>Escaleras</li>
+                <li>Acabados combinados con vidrio templado</li>
+              </ul>
+              <a class="btn btn-primary" href="#contacto" data-servicio="Acero inoxidable">Cotizar servicio →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="service-image">
+              <img src="img/thumb/melamina-01.jpg" alt="Muebles en melamina" loading="lazy">
+              <div class="service-icon"><i class="fa-solid fa-couch" aria-hidden="true"></i></div>
+            </div>
+            <div class="service-body">
+              <h3>Muebles en melamina</h3>
+              <ul>
+                <li>Muebles de cocina</li>
+                <li>Closets y organizadores</li>
+                <li>Muebles a medida para hogar y oficina</li>
+                <li>Reparaciones y acabados</li>
+              </ul>
+              <a class="btn btn-primary" href="#contacto" data-servicio="Muebles en melamina">Cotizar servicio →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="service-image">
+              <img src="img/thumb/servicios-01.jpg" alt="Servicios generales y mantenimiento" loading="lazy">
+              <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></div>
+            </div>
+            <div class="service-body">
+              <h3>Servicios generales</h3>
+              <ul>
+                <li>Mantenimiento</li>
+                <li>Instalaciones y reparaciones</li>
+                <li>Pintura y acabados</li>
+                <li>Remodelaciones</li>
+                <li>Trabajos a solicitud</li>
+              </ul>
+              <a class="btn btn-primary" href="#contacto" data-servicio="Servicios generales">Cotizar servicio →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="img/full/melamina-04.jpg" alt="Nuestro equipo instalando un closet en melamina">
+        </div>
+        <div class="about-copy">
+          <div class="section-kicker">Quiénes somos</div>
+          <h2>Tu proyecto en manos de un equipo comprometido.</h2>
+          <p>En <strong>GESTIÓN DE PROYECTOS Y LOGÍSTICA FELIPA SACS</strong> buscamos que cada trabajo combine funcionalidad, buena presentación y una ejecución responsable.</p>
+          <p>Escuchamos tus necesidades, proponemos soluciones y cuidamos cada detalle para entregar un resultado que represente la calidad que esperas.</p>
+          <div class="checks">
+            <div class="check"><b><i class="fa-solid fa-check" aria-hidden="true"></i></b><span>Atención personalizada</span></div>
+            <div class="check"><b><i class="fa-solid fa-check" aria-hidden="true"></i></b><span>Presupuestos claros</span></div>
+            <div class="check"><b><i class="fa-solid fa-check" aria-hidden="true"></i></b><span>Compromiso con los plazos</span></div>
+            <div class="check"><b><i class="fa-solid fa-check" aria-hidden="true"></i></b><span>Acabados de calidad</span></div>
+          </div>
+          <a class="btn btn-primary" href="#contacto">Hablemos de tu proyecto →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="value-strip" id="valor">
+      <div class="container value-inner">
+        <div class="value-title"><small>¿POR QUÉ ELEGIRNOS?</small><h2>Tu proyecto en<br>manos de expertos</h2></div>
+        <div class="value-item"><b><i class="fa-solid fa-medal" aria-hidden="true"></i></b><strong>Experiencia<br>y profesionalismo</strong></div>
+        <div class="value-item"><b><i class="fa-solid fa-gem" aria-hidden="true"></i></b><strong>Materiales<br>de calidad</strong></div>
+        <div class="value-item"><b><i class="fa-regular fa-calendar-check" aria-hidden="true"></i></b><strong>Cumplimiento<br>de plazos</strong></div>
+        <div class="value-item"><b><i class="fa-solid fa-tags" aria-hidden="true"></i></b><strong>Precios<br>competitivos</strong></div>
+        <div class="value-item"><b><i class="fa-solid fa-headset" aria-hidden="true"></i></b><strong>Atención<br>personalizada</strong></div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="proyectos">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker" style="color:#25c8ff">Galería</div>
+          <h2>Nuestros trabajos hablan <span>por nosotros</span></h2>
+          <p>Algunos de los trabajos que hemos realizado. Elige una categoría y toca una foto para verla en grande.</p>
+        </div>
+        <div class="gal-tabs" id="cms-gal-tabs"><button type="button" class="gal-tab active" data-cat="barandas" aria-pressed="true">Barandas de vidrio</button><button type="button" class="gal-tab" data-cat="duchas" aria-pressed="false">Duchas y espejos</button><button type="button" class="gal-tab" data-cat="aluminio" aria-pressed="false">Aluminio y PVC</button><button type="button" class="gal-tab" data-cat="acero" aria-pressed="false">Acero inoxidable</button><button type="button" class="gal-tab" data-cat="melamina" aria-pressed="false">Melamina</button><button type="button" class="gal-tab" data-cat="servicios" aria-pressed="false">Servicios generales</button></div>
+        <div class="gal-grid" id="cms-gal-grid">
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-01.jpg" aria-label="Ver foto: Baranda de vidrio templado en escalera"><img src="img/thumb/barandas-01.jpg" alt="Baranda de vidrio templado en escalera" loading="lazy"></button>
+            <figcaption>Baranda de vidrio templado en escalera</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-02.jpg" aria-label="Ver foto: Baranda de vidrio templado con sujetadores de acero"><img src="img/thumb/barandas-02.jpg" alt="Baranda de vidrio templado con sujetadores de acero" loading="lazy"></button>
+            <figcaption>Baranda de vidrio templado con sujetadores de acero</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-03.jpg" aria-label="Ver foto: Baranda de vidrio templado en doble altura"><img src="img/thumb/barandas-03.jpg" alt="Baranda de vidrio templado en doble altura" loading="lazy"></button>
+            <figcaption>Baranda de vidrio templado en doble altura</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-04.jpg" aria-label="Ver foto: Baranda de vidrio templado con pasamano"><img src="img/thumb/barandas-04.jpg" alt="Baranda de vidrio templado con pasamano" loading="lazy"></button>
+            <figcaption>Baranda de vidrio templado con pasamano</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-05.jpg" aria-label="Ver foto: Baranda de vidrio templado y pasamano de acero"><img src="img/thumb/barandas-05.jpg" alt="Baranda de vidrio templado y pasamano de acero" loading="lazy"></button>
+            <figcaption>Baranda de vidrio templado y pasamano de acero</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-06.jpg" aria-label="Ver foto: Baranda de vidrio con pasamano de acero inoxidable"><img src="img/thumb/barandas-06.jpg" alt="Baranda de vidrio con pasamano de acero inoxidable" loading="lazy"></button>
+            <figcaption>Baranda de vidrio con pasamano de acero inoxidable</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-07.jpg" aria-label="Ver foto: Parapeto de vidrio templado en azotea"><img src="img/thumb/barandas-07.jpg" alt="Parapeto de vidrio templado en azotea" loading="lazy"></button>
+            <figcaption>Parapeto de vidrio templado en azotea</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-08.jpg" aria-label="Ver foto: Baranda de vidrio templado en balcón"><img src="img/thumb/barandas-08.jpg" alt="Baranda de vidrio templado en balcón" loading="lazy"></button>
+            <figcaption>Baranda de vidrio templado en balcón</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="barandas">
+            <button type="button" data-full="img/full/barandas-09.jpg" aria-label="Ver foto: Parapeto de vidrio templado en terraza"><img src="img/thumb/barandas-09.jpg" alt="Parapeto de vidrio templado en terraza" loading="lazy"></button>
+            <figcaption>Parapeto de vidrio templado en terraza</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-01.jpg" aria-label="Ver foto: Ducha de vidrio templado con perfil negro"><img src="img/thumb/duchas-01.jpg" alt="Ducha de vidrio templado con perfil negro" loading="lazy"></button>
+            <figcaption>Ducha de vidrio templado con perfil negro</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-02.jpg" aria-label="Ver foto: Ducha esquinera de vidrio templado"><img src="img/thumb/duchas-02.jpg" alt="Ducha esquinera de vidrio templado" loading="lazy"></button>
+            <figcaption>Ducha esquinera de vidrio templado</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-03.jpg" aria-label="Ver foto: Ducha de vidrio templado con bisagras"><img src="img/thumb/duchas-03.jpg" alt="Ducha de vidrio templado con bisagras" loading="lazy"></button>
+            <figcaption>Ducha de vidrio templado con bisagras</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-04.jpg" aria-label="Ver foto: Ducha de vidrio templado con puerta batiente"><img src="img/thumb/duchas-04.jpg" alt="Ducha de vidrio templado con puerta batiente" loading="lazy"></button>
+            <figcaption>Ducha de vidrio templado con puerta batiente</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-05.jpg" aria-label="Ver foto: Ducha corrediza de vidrio templado"><img src="img/thumb/duchas-05.jpg" alt="Ducha corrediza de vidrio templado" loading="lazy"></button>
+            <figcaption>Ducha corrediza de vidrio templado</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-06.jpg" aria-label="Ver foto: Ducha corrediza con perfil cromado"><img src="img/thumb/duchas-06.jpg" alt="Ducha corrediza con perfil cromado" loading="lazy"></button>
+            <figcaption>Ducha corrediza con perfil cromado</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-07.jpg" aria-label="Ver foto: Ducha de vidrio templado a medida"><img src="img/thumb/duchas-07.jpg" alt="Ducha de vidrio templado a medida" loading="lazy"></button>
+            <figcaption>Ducha de vidrio templado a medida</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-08.jpg" aria-label="Ver foto: Ducha corrediza de vidrio templado"><img src="img/thumb/duchas-08.jpg" alt="Ducha corrediza de vidrio templado" loading="lazy"></button>
+            <figcaption>Ducha corrediza de vidrio templado</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-09.jpg" aria-label="Ver foto: Pared de espejos"><img src="img/thumb/duchas-09.jpg" alt="Pared de espejos" loading="lazy"></button>
+            <figcaption>Pared de espejos</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="duchas" hidden>
+            <button type="button" data-full="img/full/duchas-10.jpg" aria-label="Ver foto: Cerramiento de vidrio templado"><img src="img/thumb/duchas-10.jpg" alt="Cerramiento de vidrio templado" loading="lazy"></button>
+            <figcaption>Cerramiento de vidrio templado</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-01.jpg" aria-label="Ver foto: Mampara corrediza de aluminio negro"><img src="img/thumb/aluminio-01.jpg" alt="Mampara corrediza de aluminio negro" loading="lazy"></button>
+            <figcaption>Mampara corrediza de aluminio negro</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/pvc-01.jpg" aria-label="Ver foto: Ventana corrediza de PVC acústica"><img src="img/thumb/pvc-01.jpg" alt="Ventana corrediza de PVC acústica" loading="lazy"></button>
+            <figcaption>Ventana corrediza de PVC acústica</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-02.jpg" aria-label="Ver foto: Mamparas de aluminio frente a piscina"><img src="img/thumb/aluminio-02.jpg" alt="Mamparas de aluminio frente a piscina" loading="lazy"></button>
+            <figcaption>Mamparas de aluminio frente a piscina</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-03.jpg" aria-label="Ver foto: Mampara corrediza de aluminio"><img src="img/thumb/aluminio-03.jpg" alt="Mampara corrediza de aluminio" loading="lazy"></button>
+            <figcaption>Mampara corrediza de aluminio</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-04.jpg" aria-label="Ver foto: Mampara corrediza de aluminio negro"><img src="img/thumb/aluminio-04.jpg" alt="Mampara corrediza de aluminio negro" loading="lazy"></button>
+            <figcaption>Mampara corrediza de aluminio negro</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-05.jpg" aria-label="Ver foto: Ventanas de aluminio negro"><img src="img/thumb/aluminio-05.jpg" alt="Ventanas de aluminio negro" loading="lazy"></button>
+            <figcaption>Ventanas de aluminio negro</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-06.jpg" aria-label="Ver foto: Puerta de aluminio y vidrio"><img src="img/thumb/aluminio-06.jpg" alt="Puerta de aluminio y vidrio" loading="lazy"></button>
+            <figcaption>Puerta de aluminio y vidrio</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-07.jpg" aria-label="Ver foto: Mampara corrediza con vidrio acanalado"><img src="img/thumb/aluminio-07.jpg" alt="Mampara corrediza con vidrio acanalado" loading="lazy"></button>
+            <figcaption>Mampara corrediza con vidrio acanalado</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-08.jpg" aria-label="Ver foto: Ventana corrediza de aluminio"><img src="img/thumb/aluminio-08.jpg" alt="Ventana corrediza de aluminio" loading="lazy"></button>
+            <figcaption>Ventana corrediza de aluminio</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-09.jpg" aria-label="Ver foto: Puerta corrediza con vidrio esmerilado"><img src="img/thumb/aluminio-09.jpg" alt="Puerta corrediza con vidrio esmerilado" loading="lazy"></button>
+            <figcaption>Puerta corrediza con vidrio esmerilado</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="aluminio" hidden>
+            <button type="button" data-full="img/full/aluminio-10.jpg" aria-label="Ver foto: Techo de policarbonato con estructura de aluminio"><img src="img/thumb/aluminio-10.jpg" alt="Techo de policarbonato con estructura de aluminio" loading="lazy"></button>
+            <figcaption>Techo de policarbonato con estructura de aluminio</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="acero" hidden>
+            <button type="button" data-full="img/full/acero-01.jpg" aria-label="Ver foto: Baranda de acero inoxidable en escalera"><img src="img/thumb/acero-01.jpg" alt="Baranda de acero inoxidable en escalera" loading="lazy"></button>
+            <figcaption>Baranda de acero inoxidable en escalera</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="acero" hidden>
+            <button type="button" data-full="img/full/acero-02.jpg" aria-label="Ver foto: Pasamano y baranda de acero inoxidable"><img src="img/thumb/acero-02.jpg" alt="Pasamano y baranda de acero inoxidable" loading="lazy"></button>
+            <figcaption>Pasamano y baranda de acero inoxidable</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="acero" hidden>
+            <button type="button" data-full="img/full/acero-03.jpg" aria-label="Ver foto: Baranda de acero inoxidable"><img src="img/thumb/acero-03.jpg" alt="Baranda de acero inoxidable" loading="lazy"></button>
+            <figcaption>Baranda de acero inoxidable</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="acero" hidden>
+            <button type="button" data-full="img/full/acero-04.jpg" aria-label="Ver foto: Escalera con baranda de acero inoxidable"><img src="img/thumb/acero-04.jpg" alt="Escalera con baranda de acero inoxidable" loading="lazy"></button>
+            <figcaption>Escalera con baranda de acero inoxidable</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="acero" hidden>
+            <button type="button" data-full="img/full/acero-05.jpg" aria-label="Ver foto: Puerta de acero inoxidable y vidrio"><img src="img/thumb/acero-05.jpg" alt="Puerta de acero inoxidable y vidrio" loading="lazy"></button>
+            <figcaption>Puerta de acero inoxidable y vidrio</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="acero" hidden>
+            <button type="button" data-full="img/full/acero-06.jpg" aria-label="Ver foto: Pasamano metálico en escalera"><img src="img/thumb/acero-06.jpg" alt="Pasamano metálico en escalera" loading="lazy"></button>
+            <figcaption>Pasamano metálico en escalera</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="melamina" hidden>
+            <button type="button" data-full="img/full/melamina-01.jpg" aria-label="Ver foto: Mueble en melamina con vitrinas"><img src="img/thumb/melamina-01.jpg" alt="Mueble en melamina con vitrinas" loading="lazy"></button>
+            <figcaption>Mueble en melamina con vitrinas</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="melamina" hidden>
+            <button type="button" data-full="img/full/melamina-02.jpg" aria-label="Ver foto: Closet en melamina"><img src="img/thumb/melamina-02.jpg" alt="Closet en melamina" loading="lazy"></button>
+            <figcaption>Closet en melamina</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="melamina" hidden>
+            <button type="button" data-full="img/full/melamina-03.jpg" aria-label="Ver foto: Mobiliario en melamina para tienda"><img src="img/thumb/melamina-03.jpg" alt="Mobiliario en melamina para tienda" loading="lazy"></button>
+            <figcaption>Mobiliario en melamina para tienda</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="melamina" hidden>
+            <button type="button" data-full="img/full/melamina-04.jpg" aria-label="Ver foto: Instalación de closet en melamina"><img src="img/thumb/melamina-04.jpg" alt="Instalación de closet en melamina" loading="lazy"></button>
+            <figcaption>Instalación de closet en melamina</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="melamina" hidden>
+            <button type="button" data-full="img/full/melamina-05.jpg" aria-label="Ver foto: Instalación de mueble en melamina"><img src="img/thumb/melamina-05.jpg" alt="Instalación de mueble en melamina" loading="lazy"></button>
+            <figcaption>Instalación de mueble en melamina</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="servicios" hidden>
+            <button type="button" data-full="img/full/servicios-01.jpg" aria-label="Ver foto: Pérgola en azotea"><img src="img/thumb/servicios-01.jpg" alt="Pérgola en azotea" loading="lazy"></button>
+            <figcaption>Pérgola en azotea</figcaption>
+          </figure>
+          <figure class="gal-item" data-cat="servicios" hidden>
+            <button type="button" data-full="img/full/servicios-02.jpg" aria-label="Ver foto: Trabajos en obra de piscina"><img src="img/thumb/servicios-02.jpg" alt="Trabajos en obra de piscina" loading="lazy"></button>
+            <figcaption>Trabajos en obra de piscina</figcaption>
+          </figure>
+        </div>
+        <div style="text-align:center;margin-top:30px"><a class="btn btn-green" href="#contacto">¿Te gusta lo que ves? Cotiza tu proyecto →</a></div>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" hidden>
+      <button type="button" class="lb-close" aria-label="Cerrar">✕</button>
+      <button type="button" class="lb-nav lb-prev" aria-label="Foto anterior">‹</button>
+      <figure><img alt=""><figcaption></figcaption></figure>
+      <button type="button" class="lb-nav lb-next" aria-label="Foto siguiente">›</button>
+    </div>
+
+    <section class="why">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">Nuestra propuesta de valor</div>
+          <h2>Nuestro compromiso <span>contigo</span></h2>
+          <p>Lo que puedes esperar de nosotros en cada trabajo, desde la cotización hasta la entrega.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-item"><div class="big"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div><h4>Trabajo garantizado</h4><p>Responsabilidad en cada proyecto.</p></div>
+          <div class="why-item"><div class="big"><i class="fa-solid fa-handshake" aria-hidden="true"></i></div><h4>Atención personalizada</h4><p>Escuchamos y asesoramos.</p></div>
+          <div class="why-item"><div class="big"><i class="fa-solid fa-file-invoice-dollar" aria-hidden="true"></i></div><h4>Presupuestos claros</h4><p>Información transparente.</p></div>
+          <div class="why-item"><div class="big"><i class="fa-regular fa-clock" aria-hidden="true"></i></div><h4>Puntualidad</h4><p>Cumplimos lo acordado.</p></div>
+          <div class="why-item"><div class="big"><i class="fa-solid fa-star" aria-hidden="true"></i></div><h4>Experiencia</h4><p>Enfoque práctico y profesional.</p></div>
+          <div class="why-item"><div class="big"><i class="fa-solid fa-award" aria-hidden="true"></i></div><h4>Calidad</h4><p>Cuidamos los acabados.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <div class="section-kicker" style="color:#25c8ff">¿Tienes un proyecto?</div>
+          <h2>Cuéntanos qué necesitas.</h2>
+          <p>Te orientamos para encontrar una solución práctica y profesional.</p>
+        </div>
+        <a class="btn btn-green" href="#contacto">Solicitar cotización →</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">Contacto</div>
+          <h2>Hagamos realidad <span>tu proyecto</span></h2>
+          <p>Déjanos tus datos y una breve descripción. Escríbenos directamente por WhatsApp o completa el formulario y te responderemos a la brevedad.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Estamos para ayudarte</h3>
+            <p>Utiliza cualquiera de estos canales para solicitar información o una cotización.</p>
+            <div class="contact-line"><div class="ico"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></div><div><strong>Teléfono / WhatsApp</strong><span data-cms="telefono"><a href="tel:+51920246811">920 246 811</a></span></div></div>
+            <div class="contact-line" data-cms="correo-linea"><div class="ico"><i class="fa-regular fa-envelope" aria-hidden="true"></i></div><div><strong>Correo electrónico</strong><span data-cms="correo"><a href="mailto:kynu74@gmail.com">kynu74@gmail.com</a></span></div></div>
+            <div class="contact-line"><div class="ico"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div><div><strong>Zona de atención</strong><span data-cms="zonas">Lima e Ica</span></div></div>
+            <div class="contact-line"><div class="ico"><i class="fa-regular fa-clock" aria-hidden="true"></i></div><div><strong>Horario</strong><span data-cms="horario">8:00 a. m. a 8:00 p. m.</span></div></div>
+          </div>
+
+          <div class="form-box">
+            <h3>Solicita tu cotización</h3>
+            <form id="form-cotizacion">
+              <div class="row">
+                <input required type="text" name="nombre" placeholder="Nombre completo *" autocomplete="name">
+                <input required type="tel" name="telefono" placeholder="Teléfono / WhatsApp *" autocomplete="tel">
+              </div>
+              <div class="row">
+                <input type="email" name="correo" placeholder="Correo electrónico" autocomplete="email">
+                <select name="servicio">
+                  <option value="">Servicio de interés</option>
+                  <option>Vidrio templado</option>
+                  <option>Carpintería de aluminio</option>
+                  <option>Ventanas de PVC acústicas</option>
+                  <option>Acero inoxidable</option>
+                  <option>Muebles en melamina</option>
+                  <option>Servicios generales</option>
+                  <option>Proyecto integral</option>
+                </select>
+              </div>
+              <textarea name="mensaje" placeholder="Cuéntanos brevemente qué necesitas y en qué ciudad (Lima o Ica)..."></textarea>
+              <button class="btn btn-primary" type="submit"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> &nbsp;Enviar por WhatsApp</button>
+              <p style="font-size:12px;color:var(--muted);margin-top:10px">Al enviar se abrirá WhatsApp con tu mensaje listo. Solo presiona enviar.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="logo-emblema.png" alt="AF Servicios Generales" width="117" height="46">
+          <div><strong>GESTIÓN DE PROYECTOS<br>Y LOGÍSTICA FELIPA SACS</strong><small>Tu proyecto, nuestra prioridad</small></div>
+        </div>
+        <div class="footer-links">
+          <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#proyectos">Galería</a><a href="#contacto">Contacto</a>
+        </div>
+        <div><div style="font-size:11px;font-weight:800;margin-bottom:8px;color:#fff">Síguenos en nuestras redes</div><div class="socials" aria-label="Redes sociales">
+          <a data-red="facebook" href="https://www.facebook.com/share/19oE2Fbn1F/" target="_blank" rel="noopener" aria-label="Facebook de AF Servicios Generales"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a data-red="instagram" href="https://www.instagram.com/servicios_generales_af/" target="_blank" rel="noopener" aria-label="Instagram de AF Servicios Generales"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a data-red="tiktok" href="https://www.tiktok.com/@serviciosgeneralesaf" target="_blank" rel="noopener" aria-label="TikTok de AF Servicios Generales"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+          <a href="https://wa.me/51920246811" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+        </div></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Gestión de Proyectos y Logística Felipa SACS. Todos los derechos reservados.</span>
+        <span>Vidriería · Carpintería · Servicios Generales</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="backtop" href="#inicio" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
+  <a class="whatsapp" href="https://wa.me/51920246811?text=Hola%20GESTI%C3%93N%20DE%20PROYECTOS%20Y%20LOG%C3%8DSTICA%20FELIPA%20SACS,%20deseo%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <span class="wa-icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></span>
+    <span class="wa-tooltip">Cotiza por WhatsApp</span>
+  </a>
+
+  <script>
+    // Enlaces de invitación o recuperación de contraseña del panel de administración
+    if (/(invite|recovery|confirmation|email_change)_token=/.test(location.hash)) {
+      const s = document.createElement('script');
+      s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+      s.onload = () => {
+        netlifyIdentity.on('login', () => { location.href = '/admin/'; });
+        netlifyIdentity.init({ locale: 'es' });
+      };
+      document.head.appendChild(s);
+    }
+
+    let WHATSAPP = '51920246811';
+
+    // ===== Contenido editable desde el panel (/admin) =====
+    const esc = t => String(t ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    // Fotos optimizadas propias -> versión liviana; fotos subidas desde el panel -> redimensionadas por Netlify
+    const foto = (src, w) => {
+      if (!src) return '';
+      if (src.includes('/img/full/')) return w <= 640 ? src.replace('/img/full/', '/img/thumb/') : src;
+      if (src.includes('/img/thumb/')) return src;
+      return '/.netlify/images?url=' + encodeURIComponent(src) + '&w=' + w + '&q=78';
+    };
+    const imgTag = (src, w, alt, extra = '') =>
+      `<img src="${esc(foto(src, w))}" data-orig="${esc(src)}" onerror="if(this.dataset.orig&&this.src.indexOf('/.netlify/images')>-1){this.src=this.dataset.orig}" alt="${esc(alt)}" ${extra}>`;
+    const slug = t => String(t).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-');
+
+    function aplicarContacto(c) {
+      const num = String(c.whatsapp || '').replace(/\D/g, '').slice(-9);
+      if (num.length === 9) {
+        WHATSAPP = '51' + num;
+        document.querySelectorAll('a[href*="wa.me/"]').forEach(a => {
+          a.href = a.href.replace(/wa\.me\/\d+/, 'wa.me/' + WHATSAPP);
+        });
+        const visible = num.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
+        document.querySelectorAll('[data-cms="telefono"]').forEach(el => {
+          el.innerHTML = `<a href="tel:+51${num}">${visible}</a>`;
+        });
+      }
+      const lineaCorreo = document.querySelector('[data-cms="correo-linea"]');
+      if (lineaCorreo) {
+        lineaCorreo.hidden = !c.correo;
+        if (c.correo) lineaCorreo.querySelector('[data-cms="correo"]').innerHTML = `<a href="mailto:${esc(c.correo)}">${esc(c.correo)}</a>`;
+      }
+      if (c.zonas) document.querySelectorAll('[data-cms="zonas"]').forEach(el => el.textContent = c.zonas);
+      if (c.horario) document.querySelectorAll('[data-cms="horario"]').forEach(el => el.textContent = c.horario);
+      ['facebook', 'instagram', 'tiktok'].forEach(red => {
+        document.querySelectorAll(`[data-red="${red}"]`).forEach(a => {
+          if (c[red]) { a.href = c[red]; a.hidden = false; } else { a.hidden = true; }
+        });
+      });
+    }
+
+    function aplicarServicios(d) {
+      const lista = (d.servicios || []).filter(s => s.titulo);
+      if (!lista.length) return;
+      document.getElementById('cms-servicios').innerHTML = lista.map(s => `
+          <article class="card">
+            <div class="service-image">
+              ${imgTag(s.imagen, 640, s.titulo, 'loading="lazy"')}
+              <div class="service-icon"><i class="${esc(s.icono || 'fa-solid fa-check')}" aria-hidden="true"></i></div>
+            </div>
+            <div class="service-body">
+              <h3>${esc(s.titulo)}</h3>
+              <ul>${(s.trabajos || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul>
+              <a class="btn btn-primary" href="#contacto" data-servicio="${esc(s.titulo)}">Cotizar servicio →</a>
+            </div>
+          </article>`).join('');
+      const sel = document.querySelector('#form-cotizacion select[name="servicio"]');
+      sel.innerHTML = '<option value="">Servicio de interés</option>' +
+        lista.map(s => `<option>${esc(s.titulo)}</option>`).join('') + '<option>Proyecto integral</option>';
+    }
+
+    function aplicarGaleria(d) {
+      const cats = (d.categorias || []).filter(c => c.nombre && (c.fotos || []).some(f => f.imagen));
+      if (!cats.length) return;
+      document.getElementById('cms-gal-tabs').innerHTML = cats.map((c, i) =>
+        `<button type="button" class="gal-tab${i ? '' : ' active'}" data-cat="${slug(c.nombre)}" aria-pressed="${!i}">${esc(c.nombre)}</button>`).join('');
+      document.getElementById('cms-gal-grid').innerHTML = cats.map((c, i) => c.fotos.filter(f => f.imagen).map(f => `
+          <figure class="gal-item" data-cat="${slug(c.nombre)}"${i ? ' hidden' : ''}>
+            <button type="button" data-full="${esc(foto(f.imagen, 1400))}" data-orig="${esc(f.imagen)}" aria-label="Ver foto: ${esc(f.descripcion)}">${imgTag(f.imagen, 640, f.descripcion, 'loading="lazy"')}</button>
+            <figcaption>${esc(f.descripcion)}</figcaption>
+          </figure>`).join('')).join('');
+    }
+
+    const cargar = (archivo, fn) => fetch('/content/' + archivo, {cache: 'no-cache'})
+      .then(r => r.ok ? r.json() : Promise.reject()).then(fn).catch(() => {});
+    cargar('contacto.json', aplicarContacto);
+    cargar('servicios.json', aplicarServicios);
+    cargar('galeria.json', aplicarGaleria);
+
+    // Formulario: arma el mensaje y lo abre en WhatsApp
+    document.getElementById('form-cotizacion').addEventListener('submit', e => {
+      e.preventDefault();
+      const f = e.target;
+      const v = n => f.elements[n].value.trim();
+      const lineas = [
+        'Hola FELIPA SACS, deseo solicitar una cotización.',
+        '',
+        '*Nombre:* ' + v('nombre'),
+        '*Teléfono:* ' + v('telefono'),
+        v('correo') ? '*Correo:* ' + v('correo') : null,
+        v('servicio') ? '*Servicio:* ' + v('servicio') : null,
+        v('mensaje') ? '*Detalle:* ' + v('mensaje') : null
+      ].filter(l => l !== null);
+      const url = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(lineas.join('\n'));
+      window.open(url, '_blank') || (location.href = url);
+    });
+
+    // Botones "Cotizar servicio": preseleccionan el servicio en el formulario
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-servicio]');
+      if (btn) document.querySelector('#form-cotizacion select[name="servicio"]').value = btn.dataset.servicio;
+    });
+
+    // Galería: pestañas por categoría
+    document.getElementById('cms-gal-tabs').addEventListener('click', e => {
+      const t = e.target.closest('.gal-tab');
+      if (!t) return;
+      document.querySelectorAll('.gal-tab').forEach(x => { x.classList.toggle('active', x === t); x.setAttribute('aria-pressed', x === t); });
+      document.querySelectorAll('.gal-item').forEach(it => it.hidden = it.dataset.cat !== t.dataset.cat);
+    });
+
+    // Galería: vista ampliada
+    const lb = document.getElementById('lightbox');
+    const lbImg = lb.querySelector('img'), lbCap = lb.querySelector('figcaption');
+    let visibles = [], idx = 0;
+    lbImg.addEventListener('error', () => {
+      const b = visibles[idx] && visibles[idx].querySelector('button');
+      if (b && lbImg.src.indexOf('/.netlify/images') > -1) lbImg.src = b.dataset.orig;
+    });
+    const mostrar = i => {
+      idx = (i + visibles.length) % visibles.length;
+      const b = visibles[idx].querySelector('button');
+      lbImg.src = b.dataset.full; lbImg.alt = visibles[idx].querySelector('img').alt;
+      lbCap.textContent = visibles[idx].querySelector('figcaption').textContent;
+    };
+    document.getElementById('cms-gal-grid').addEventListener('click', e => {
+      const it = e.target.closest('.gal-item');
+      if (!it) return;
+      visibles = [...document.querySelectorAll('.gal-item')].filter(x => !x.hidden);
+      lb.hidden = false; document.body.style.overflow = 'hidden';
+      mostrar(visibles.indexOf(it));
+    });
+    const cerrar = () => { lb.hidden = true; document.body.style.overflow = ''; lbImg.src = ''; };
+    lb.querySelector('.lb-close').addEventListener('click', cerrar);
+    lb.querySelector('.lb-prev').addEventListener('click', () => mostrar(idx - 1));
+    lb.querySelector('.lb-next').addEventListener('click', () => mostrar(idx + 1));
+    lb.addEventListener('click', e => { if (e.target === lb) cerrar(); });
+    document.addEventListener('keydown', e => {
+      if (lb.hidden) return;
+      if (e.key === 'Escape') cerrar();
+      if (e.key === 'ArrowLeft') mostrar(idx - 1);
+      if (e.key === 'ArrowRight') mostrar(idx + 1);
+    });
+    let x0 = null;
+    lb.addEventListener('touchstart', e => x0 = e.touches[0].clientX, {passive:true});
+    lb.addEventListener('touchend', e => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 50) mostrar(idx + (dx < 0 ? 1 : -1));
+      x0 = null;
+    });
+
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => document.querySelector('nav').classList.remove('open'));
+    });
+  </script>
+</body>
+</html>
